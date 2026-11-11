@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "serve": "php server.php"
+    },
+    "require": {
+        "eftec/bladeone": "^5.0"
+    }
+}

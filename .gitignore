@@ -1,0 +1,25 @@
+# Mengabaikan folder vendor (dependencies dari Composer)
+/vendor/
+
+# Mengabaikan folder cache (file compile-an Blade)
+# /cache/
+# Mengabaikan semua isi di dalam folder cache
+/cache/*
+
+# KECUALI file .gitkeep agar foldernya tetap terbawa ke Git
+!/cache/.gitkeep
+
+# (Opsional) Jika di dalam folder cache ada file, tapi kamu ingin foldernya tetap ada di Git
+# Kamu bisa mengabaikan semua isinya kecuali file .gitkeep
+# /cache/*
+# !/cache/.gitkeep
+
+# Mengabaikan file konfigurasi sensitif (jika nanti pakai file .env)
+.env
+
+# Mengabaikan file log
+*.log
+
+# Mengabaikan file sistem operasi
+.DS_Store
+Thumbs.db
